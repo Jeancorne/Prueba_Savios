@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <script src="js/js.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Header</a>
+    </nav>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 tarjeta">
+                <img src="img/visa.png">
+            </div>
+            <div class="col-md-5">
+                <form id="formulario">
+                    <div class="form-group">
+                        <label for="txtNumero">Número Tarjeta</label>
+                        <input type="text" class="form-control" id="txtNumero" name="txtNumero"
+                            aria-describedby="emailHelp" placeholder="Ingrese Número">
+                    </div>
+                    <div class="form-group">
+                        <label for="txtPropietario">Nombre Propietario</label>
+                        <input type="text" class="form-control" name="txtPropietario" id="txtPropietario"
+                            placeholder="Ingrese Propietario">
+                    </div>
+                    <div class="form-group">
+                        <label for="txtFecha">Fecha de Vencimiento</label>
+                        <input type="Date" class="form-control" name="txtFecha" id="txtFecha"
+                            placeholder="Ingrese Fecha">
+                    </div>
+                    <div class="form-group">
+                        <label for="txtSeguridad">Número de Seguridad</label>
+                        <input type="text" class="form-control" name="txtSeguridad" id="txtSeguridad"
+                            placeholder="Ingrese Número">
+                    </div>
+                    <div class="form-group">
+                        <label for="txtPrecio">Precio</label>
+                        <input type="number" class="form-control" name="txtPrecio" id="txtPrecio"
+                            placeholder="Ingrese Precio">
+                    </div>
+                    <div class="form-group">
+                        <label for="txtCuotas">Cuotas</label>
+                        <input type="number" class="form-control" name="txtCuotas" id="txtCuotas"
+                            placeholder="Ingrese Cuotas">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Pagar</button>
+                    <button type="button" class="btn btn-primary btnImprimir">Imprimir</button>
+                </form>
+            </div>
+        </div>
+        <table class="table" id="Table">
+                
+        </table>
+    </div>
+    <br>
+    <br>
+    <br>
+    <footer class="page-footer font-small blue pt-4">
+        <div class="container-fluid text-center text-md-left">
+            <h2>Footer</h2>
+        </div>
+    </footer>
+</body>
+</html>

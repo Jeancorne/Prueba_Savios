@@ -1,0 +1,14 @@
+.tarjeta{
+    height: auto;
+    
+}
+
+.tarjeta img{
+    float: right;
+    width: 70%;
+    height: 50%;
+}
+
+#Table{
+    margin-top: 2%;
+}
